@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: black;
+            height: 30px;
+            width: 150px;
+            border-radius: 20px;
+        }
+        a{
+            color: black; 
+            text-decoration: none;
+        }
+        .b1{
+            display: inline-block;
+            border-style: none;
+            background-color: lightpink;
+            margin: 10px;
+            padding: 2px;
+            width: 600px;
+            height: 200px;
+            text-align: center;
+            border-radius: 2px;
+        }
+        .b2{
+            display: inline-block;
+            border-style: none;
+            background-color:lightgoldenrodyellow;
+            margin: 30px;
+            padding: 2px;
+            width: 600px;
+            height: 200px;
+            text-align: center;     
+        }
+        .b3{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgray;
+            margin: 10px;
+            padding: 2px;
+            width: 600px;
+            height: 200px;
+            text-align: center;
+        }
+        .b4{
+            display: inline-block;
+            border-style: none;
+            background-color:lightslategrey;
+            margin: 30px;
+            padding: 2px;
+            width: 600px;
+            height: 200px;
+            text-align: center;
+        }
+        .b5{
+            display: inline-block;
+            border-style: none;
+            background-color:lightskyblue;
+            margin: 10px;
+            padding: 2px;
+            width: 600px;
+            height: 200px;
+            text-align: center;
+        }
+        .b6{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgrey;
+            margin: 30px;
+            padding: 2px;
+            width: 600px;
+            height: 200px;
+            text-align: center;
+        }
+        .b7{
+            display: inline-block;
+            border-style: none;
+            background-color:lightpink;
+            margin: 10px;
+            padding-top: 2px;
+            width: 600px;
+            height: 150px;
+            text-align: center;
+            font-size: xx-large;
+        }
+        .b8{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgoldenrodyellow;
+            margin: 30px;
+            padding-top: 2px;
+            width: 610px;
+            height: 150px;
+            text-align: center;
+            font-size: xx-large;
+
+        }
+        .b9{
+            display: inline-block;
+            border-style: none;
+            background-color:lightgray;
+            margin: 10px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b10{
+            display: inline-block;
+            border-style: none;
+            background-color: lightslategrey;
+            margin: 25px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b11{
+            display: inline-block;
+            border-style: none;
+            background-color:lightskyblue;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b12{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgrey;
+            margin: 25px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b13{
+            display: inline-block;
+            border-style: none;
+            background-color:lightpink;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b14{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgoldenrodyellow;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b15{
+            display: inline-block;
+            border-style: none;
+            background-color:lightgray;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b16{
+            display: inline-block;
+            border-style: none;
+            background-color: lightslategrey;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b17{
+            display: inline-block;
+            border-style: none;
+            background-color:lightskyblue;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b18{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgrey;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b19{
+            display: inline-block;
+            border-style: none;
+            background-color:lightpink;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b20{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgoldenrodyellow;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b21{
+            display: inline-block;
+            border-style: none;
+            background-color:lightgray;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b22{
+            display: inline-block;
+            border-style: none;
+            background-color:lightslategrey;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b23{
+            display: inline-block;
+            border-style: none;
+            background-color:lightskyblue;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b24{
+            display: inline-block;
+            border-style: none;
+            background-color:lightgrey;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b25{
+            display: inline-block;
+            border-style: none;
+            background-color:lightpink;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b26{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgoldenrodyellow;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b27{
+            display: inline-block;
+            border-style: none;
+            background-color:lightgray;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b28{
+            display: inline-block;
+            border-style: none;
+            background-color: lightslategrey;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b29{
+            display: inline-block;
+            border-style: none;
+            background-color:lightskyblue;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b30{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgrey;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b31{
+            display: inline-block;
+            border-style: none;
+            background-color:lightpink;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b32{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgoldenrodyellow;
+            margin: 20px;
+            padding-top: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b33{
+            display: inline-block;
+            border-style: none;
+            background-color:lightgray;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b34{
+            display: inline-block;
+            border-style: none;
+            background-color: lightslategrey;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b35{
+            display: inline-block;
+            border-style: none;
+            background-color:lightskyblue;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b36{
+            display: inline-block;
+            border-style: none;
+            background-color:lightgrey;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b37{
+            display: inline-block;
+            border-style: none;
+            background-color:lightpink;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b38{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgoldenrodyellow;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b39{
+            display: inline-block;
+            border-style: none;
+            background-color:lightgray;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b40{
+            display: inline-block;
+            border-style: none;
+            background-color: lightslategrey;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b41{
+            display: inline-block;
+            border-style: none;
+            background-color:lightskyblue;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b42{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgrey;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b43{
+            display: inline-block;
+            border-style: none;
+            background-color:lightpink;
+            margin: 15px;
+            padding: 2px;
+            width: 280px;
+            height: 100px;
+            text-align: center;
+        }
+        .b44{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgoldenrodyellow;
+            margin: 20px;
+            padding-top: -2px;
+            width: 280px;
+            height: 100px;
+            text-align: center; 
+        }
+        .b45{
+            display: inline-block;
+            border-style: none;
+            background-color: lightgray;
+            margin: 10px;
+            padding: 2px;
+            width: 600px;
+            height: 100px;
+            text-align: center;
+        }
+        .b46{
+            display: inline-block;
+            border-style: none;
+            background-color:lightslategrey;
+            margin: 30px;
+            padding: 2px;
+            width: 600px;
+            height: 100px;
+            text-align: center;  
+        }
+        .b47{
+            display: inline-block;
+            border-style: none;
+            background-color: lightskyblue;
+            margin: 10px;
+            padding: 2px;
+            width: 600px;
+            height: 100px;
+            text-align: center;
+        }
+        .b48{
+            display: inline-block;
+            border-style: none;
+            background-color:lightgrey;
+            margin: 30px;
+            padding: 2px;
+            width: 600px;
+            height: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="b1">
+        <h1>PHP</h1>
+        <p>A web server programming language<p>
+        <button>
+            <a href="https://www.w3schools.com/php/default.asp" style="color: white; text-decoration: none;">Learn PHP</a></button>
+    </div>
+    <div class="b2">
+        <h1>jQuery</h1>
+        <p>A JS library for developing web pages</p>
+        <button>
+            <a href="https://www.w3schools.com/jquery/default.asp"  style="color: white; text-decoration: none;">Learn jQuery</a></button>   
+    </div>
+    <div class="b3">
+        <h1>Java</h1>
+        <p>A programming language</p>
+        <button>
+            <a href="https://www.w3schools.com/java/default.asp"  style="color: white; text-decoration: none;">Learn Java</a></button>   
+    </div>
+    <div class="b4">
+        <h1>C++</h1>
+        <p>A programming language</p>
+        <button>
+            <a href="https://www.w3schools.com/cpp/default.asp"  style="color: white; text-decoration: none;">Learn C++</a></button>   
+    </div>
+    <div class="b5">
+        <h1>W3.CSS</h1>
+        <p>A CSS framework for faster and better responsive web pages</p>
+        <button>
+            <a href="https://www.w3schools.com/w3css/default.asp"  style="color: white; text-decoration: none;">Learn W3.CSS</a></button>   
+    </div>
+    <div class="b6">
+        <h1>Bootstrap</h1>
+        <p>A CSS framework for designing better web pages</p>
+        <button>
+            <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp"  style="color: white; text-decoration: none;">Learn Bootstrap</a>
+        </button>
+    </div>
+    <div class="b7">
+        <a href="https://www.w3schools.com/c/index.php"><h3>C</h3></a>
+    </div>
+    <div class="b8">
+        <a href="https://www.w3schools.com/cs/index.php"><h3>C#</h3></a>
+    </div>
+    <div class="b9">
+        <a href="https://www.w3schools.com/r/default.asp"><h1>R</h1></a></div>
+    <div class="b10">
+        <a href="https://www.w3schools.com/kotlin/index.php"><h1>Kotlin</h1></a></div>
+    <div class="b11">
+        <a href="https://www.w3schools.com/nodejs/default.asp"><h1>Node.js</h1></a></div>
+    <div class="b12">
+        <a href="https://www.w3schools.com/react/default.asp"><h1>React</h1></a></div>
+    <div class="b13"><a href="https://www.w3schools.com/js/js_json.asp"><h1>JSON</h1></a></div>
+    <div class="b14"><a href="https://www.w3schools.com/vue/index.php"><h1>Vue</h1></a></div>  
+    <div class="b15"><a href="https://www.w3schools.com/mysql/default.asp"><h1>MySQL</h1></a></div>  
+    <div class="b16"><a href="https://www.w3schools.com/xml/default.asp"><h1>XML</h1></a></div>  
+    <div class="b17"><a href="https://www.w3schools.com/sass/default.php"><h1>Sass</h1></a></div>  
+    <div class="b18"><a href="https://www.w3schools.com/icons/default.asp"><h1>Icons</h1></a></div>  
+    <div class="b19"><a href="https://www.w3schools.com/css/css_rwd_intro.asp"><h1>RWD</h1></a></div>  
+    <div class="b20"><a href="https://www.w3schools.com/graphics/default.asp"><h1>Graphics</h1></a></div>  
+    <div class="b21"><a href="https://www.w3schools.com/graphics/svg_intro.asp"><h1>SVG</h1></a></div>  
+    <div class="b22"><a href="https://www.w3schools.com/graphics/canvas_intro.asp"><h1>Canvas</h1></a></div>  
+    <div class="b23"><a href="https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp"><h1>Raspberry pi</h1></a></div>  
+    <div class="b24"><a href="https://www.w3schools.com/cybersecurity/index.php"><h1>Cyber Security</h1></a></div> 
+    <div class="b25"><a href="https://www.w3schools.com/colors/default.asp"><h1>Colors</h1></a></div> 
+    <div class="b26"><a href="https://www.w3schools.com/git/default.asp"><h1>Git</h1></a></div>  
+    <div class="b27"><a href="https://www.w3schools.com/python/matplotlib_intro.asp"><h1>Matplotlib</h1></a></div>  
+    <div class="b28"><a href="https://www.w3schools.com/python/numpy/default.asp"><h1>Numpy</h1></a></div>  
+    <div class="b29"><a href="https://www.w3schools.com/python/pandas/default.asp"><h1>Pandas</h1></a></div>  
+    <div class="b30"><a href="https://www.w3schools.com/python/scipy/index.php"><h1>SciPy</h1></a></div>  
+    <div class="b31"><a href="https://www.w3schools.com/asp/default.asp"><h1>ASP</h1></a></div>  
+    <div class="b32"><a href="https://www.w3schools.com/angular/default.asp"><h1>AngularJS</h1></a></div>
+    <div class="b33"><a href="https://www.w3schools.com/appml/default.asp"><h1>AppML</h1></a></div>  
+    <div class="b34"><a href="https://www.w3schools.com/go/index.php"><h1>Go</h1></a></div>  
+    <div class="b35"><a href="https://www.w3schools.com/typescript/index.php"><h1>TypeScript</h1></a></div>  
+    <div class="b36"><a href="https://www.w3schools.com/django/index.php"><h1>Django</h1></a></div>  
+    <div class="b37"><a href="https://www.w3schools.com/mongodb/index.php"><h1>MongoDB</h1></a></div>  
+    <div class="b38"><a href="https://www.w3schools.com/statistics/index.php"><h1>Statistics</h1></a></div>  
+    <div class="b39"><a href="https://www.w3schools.com/datascience/default.asp"><h1>Data Science</h1></a></div>  
+    <div class="b40"><a href="https://www.w3schools.com/typingspeed/default.asp"><h1>Typing Speed</h1></a></div>  
+    <div class="b41"><a href="https://www.w3schools.com/howto/default.asp"><h1>HowTo</h1></a></div>  
+    <div class="b42"><a href="https://www.w3schools.com/codegame/index.html"><h1>Code Game</h1></a></div>  
+    <div class="b43"><a href="https://www.w3schools.com/spaces/index.php"><h1>Spaces</h1></a></div>  
+    <div class="b44"><a href="https://www.w3schools.com/postgresql/index.php"><h1>PostgreSQL</h1></a></div>  
+    <div class="b45"><a href="https://www.w3schools.com/excel/index.php"><h1>Excel</h1></a></div>  
+    <div class="b46"><a href="https://www.w3schools.com/dsa/index.php"><h1>DSA-Data Structure and Alogrithms</h1></a></div>  
+    <div class="b47"><a href="https://www.w3schools.com/python/python_ml_getting_started.asp"><h1>Machine Learing</h1></a></div>  
+    <div class="b48"><a href="https://www.w3schools.com/ai/default.asp"><h1>Artificial Intelligence</h1></a></div>  
+</body> 
+</html>
